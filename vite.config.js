@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/{專案名稱}/',
+  base: '/week-3/',
   plugins: [
     vue(),
   ],
