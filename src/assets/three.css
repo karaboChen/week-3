@@ -1,0 +1,76 @@
+.bg2 {
+  background-color: #fbf2f2;
+  font-family: "Noto Sans TC";
+}
+
+.bg2 > div > h2 {
+  padding-top: 80px;
+  padding-bottom: 36.5px;
+  font-weight: bold;
+  font-size: 48px;
+  color: #650300;
+  margin: 0 auto;
+}
+
+.heart_box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.heart_img{
+  max-width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.heart_img_2{
+ max-width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.heart_img_3{
+ max-width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.heart_img_4{
+ max-width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.heart>h3{
+  font-size: 24px;
+  color: #650300;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.heart>p{
+  max-width: 306px;
+  font-size: 16px;
+  text-align: start;
+}
+
+@media (max-width:992px) {
+  .heart_box{
+    flex-wrap: wrap;
+  }
+  .heart{
+    width: 50%;
+  }
+  .heart>p{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:767px) {
+  .heart{
+    width: 100%;
+  }
+  .heart{
+     margin-bottom: 24px;
+  }
+}

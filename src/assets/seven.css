@@ -1,0 +1,69 @@
+.contact_box{
+  max-width: 636px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.contact_box >h2{
+   color: #650300;
+   line-height: 72px;
+   font-weight: bold;
+   font-size: 48px;
+   text-align: center;
+   font-family: "Noto Sans TC";
+   margin-bottom: 48px;
+}
+.contact_box >h3{
+  color: #000000;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "Noto Sans TC";
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+.contact_box >p{
+margin-bottom: 8px;
+}
+
+.input{
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 6px 0px 6px 12px;
+}
+.input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+.big{
+  padding-bottom: 136px;
+}
+
+.btn{
+  background-color: #AA0601;
+  margin: 0 auto;
+  margin-top: 48px;
+  width: 63%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.btn>a{
+  display: block;
+  padding: 16px 0px;
+}
+
+@media (max-width:992px) {
+  .contact_box{
+    padding: 0 96px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width:767px) {
+  .contact_box{
+    padding: 0 13px;
+    padding-bottom: 80px;
+  }
+}
+
